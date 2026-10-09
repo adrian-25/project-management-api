@@ -2,6 +2,7 @@ services:
   - type: web
     runtime: node
     name: project-management-api
+    plan: free
     rootDir: backend
     buildCommand: npm ci
     startCommand: npm start
