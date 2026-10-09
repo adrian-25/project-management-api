@@ -7,7 +7,7 @@ services:
     startCommand: npm start
     healthCheckPath: /health
     envVars:
-      - key: MONGO_URI
+      - key: DATABASE_URL
         sync: false
       - key: NODE_ENV
         value: production
